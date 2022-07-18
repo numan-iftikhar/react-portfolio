@@ -1,0 +1,47 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+.nav-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-right {
+  display: flex;
+  flex: 1; /* It'll grow to available width */
+  justify-content: center;
+  align-items: center;
+}
+.nav-right ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav-right li {
+  margin-right: 4rem;
+  font-weight: bold;
+}
+.nav-right li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+.nav-right .button {
+  padding: 10px;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.nav-right .button:hover {
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  background-color: white;
+}
