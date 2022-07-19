@@ -15,3 +15,20 @@
   overflow: hidden;
   color: var(--black);
 }
+.button{
+  padding: 10px;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: var(--boxShadow);
+}
+.button:hover {
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  background-color: white;
+}
+.text-center{
+  text-align: center;
+}

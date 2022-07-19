@@ -1,0 +1,17 @@
+.floating-div {
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  border-radius: 15px;
+  height: 80px;
+  width: 200px;
+}
+
+.floating-div img {
+  transform: scale(0.4);
+  float: left;
+}
+.floating-div span {
+  float: right;
+}

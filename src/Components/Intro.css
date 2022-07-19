@@ -1,0 +1,85 @@
+#intro {
+  display: flex;
+  margin-top: 5rem;
+}
+.i-left {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 77vh;
+  position: relative;
+}
+.i-left > :nth-child(1) {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--black);
+}
+/* name */
+.i-left > :nth-child(2) {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--orange);
+}
+
+/* intro paragraph */
+.i-left > :nth-child(3) {
+  font-size: 1rem;
+  color: var(--gray);
+}
+.i-left .button {
+  width: 6rem;
+  height: 3rem;
+}
+.i-icons {
+  display: flex;
+  margin-top: 3rem;
+}
+.i-icons > * {
+  transform: scale(0.5);
+}
+.i-icons > * {
+  cursor: pointer;
+}
+
+.i-right {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -15%;
+}
+.i-right > :nth-child(2) {
+  transform: scale(0.69);
+  left: -3rem;
+  top: -4.6rem;
+}
+.i-right > :nth-child(3) {
+  transform: scale(1.4);
+  right: 7rem;
+}
+.crown {
+  position: absolute;
+  top: -18px;
+  right: -19px;
+  z-index: 1;
+}
+.thumb {
+  position: absolute;
+  top: 367px;
+  right: 340px;
+  z-index: 1;
+}
+.emoji {
+  width: 150px;
+  position: absolute;
+  top: -50px;
+  left: -30px;
+}
