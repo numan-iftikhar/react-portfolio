@@ -22,6 +22,8 @@
   border-radius: 30px;
   border: none;
   box-shadow: var(--boxShadow);
+  height: 3rem;
+  width: max-content;
 }
 .button:hover {
   cursor: pointer;
