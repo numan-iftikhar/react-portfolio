@@ -1,0 +1,34 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 14rem;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid var(--orange);
+    border-radius: 16px;
+    height: auto;
+}
+.card>:nth-child(2){
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.card>:nth-child(3){
+    font-size: .8rem;
+    color: var(--gray);
+}
+.card img{
+    width: 5rem;
+}
+.card .c-btn{
+    text-transform: uppercase;
+    color: skyblue;
+    background-color: white;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
