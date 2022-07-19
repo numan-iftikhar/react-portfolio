@@ -19,7 +19,7 @@ function Navbar() {
             <li>Testimonial</li>
           </ul>
         </div>
-        <button className="button">Contact Us</button>
+        <button className="button">Contact</button>
       </div>
     </section>
   );
