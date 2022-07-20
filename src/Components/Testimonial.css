@@ -1,0 +1,69 @@
+#testimonial {
+  margin: 4rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+.tHeading {
+  align-self: center;
+}
+.tHeading > * {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.tHeading > :nth-child(2) {
+  color: var(--orange);
+}
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+.tBlur1 {
+  left: 33rem;
+  top: 18rem;
+}
+.tBlur2 {
+  left: 0rem;
+  top: 7rem;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 30rem;
+  height: 12rem;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--blueCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+}
+.testimonial > img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+}
+.testimonial > p {
+  color: var(--gray);
+}
+#testimonial .swiper {
+  width: 100%;
+  height: 70%;
+}
+#testimonial .swiper-slide {
+  display: grid;
+  place-items: center;
+}
