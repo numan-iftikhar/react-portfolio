@@ -8,8 +8,13 @@ import profile1 from "../img/profile1.jpg";
 import profile2 from "../img/profile2.jpg";
 import profile3 from "../img/profile3.jpg";
 import profile4 from "../img/profile4.jpg";
+import { themeContext } from "../context.js";
+import { useContext } from "react";
 
 const Testimonial = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   const clients = [
     {
       img: profile1,
@@ -59,7 +64,7 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
-                <p>{client.review}</p>
+                <p style={{color: darkMode? "white": ''}}>{client.review}</p>
               </div>
             </SwiperSlide>
           );

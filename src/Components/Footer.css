@@ -1,23 +1,25 @@
-#footer{
-    display: flex;
-    align-items: center;
-    margin: -.5rem -.3.5rem;
-    margin-top: -7rem;
-    position: relative;
+#footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -0.3.5rem;
+  margin-top: -7rem;
+  position: relative;
 }
-.fContent{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 4rem;
-    gap: 4rem;
-    color: white;
+.fContent {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  gap: 4rem;
+  color: white;
 }
-.fIcons{
-    display: flex;
-    gap: 2rem;
-    cursor: pointer;
+.fIcons {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+#footer > :nth-child(1) {
 }

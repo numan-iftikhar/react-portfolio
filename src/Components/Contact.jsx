@@ -1,12 +1,17 @@
 import React from "react";
 import "./Contact.css";
+import { themeContext } from "../context.js";
+import { useContext } from "react";
 
 const Contact = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <section id="contact">
       <div className="cLeft">
         <div className="awesome">
-          <span>Get in touch</span>
+          <span style={{color: darkMode? "white": ''}}>Get in touch</span>
           <br />
           <span>Contact me</span>
         </div>

@@ -6,14 +6,19 @@ import shopify from "../img/Shopify.png";
 import facebook from "../img/Facebook.png";
 import upwork from "../img/Upwork.png";
 import {motion} from 'framer-motion'
+import { themeContext } from "../context.js";
+import { useContext } from "react";
 
 function Works() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <section id="works">
       <div className="left s-awesome">
-        <span>Works for All these</span>
+        <span style={{color: darkMode? "white": ''}}>Works for All these</span>
         <span>Brands and Clients</span>
-        <p>
+        <p style={{color: darkMode? "white": ''}}>
           repellat facilis sed vero cumque. In.
           <br />
           repellat facilis sed vero cumque. In.

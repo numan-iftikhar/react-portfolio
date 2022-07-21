@@ -19,9 +19,9 @@ function Services() {
   return (
     <section id="services">
       <div className="left s-awesome">
-        <span>My Awesome</span>
+        <span style={{color: darkMode? "white": ''}}>My Awesome</span>
         <span>Services</span>
-        <p>
+        <p style={{color: darkMode? "white": ''}}>
           Lorem ipsum dolor sit amet veniam voluptatem aliquid deserunt <br />
           repellat facilis sed vero cumque. In.
         </p>
