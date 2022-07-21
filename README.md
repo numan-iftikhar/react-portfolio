@@ -1,5 +1,7 @@
 # React Portfolio
 
+## [See Live](https://numan-iftikhar.github.io/react-portfolio/) here
+
 - I created this while coding along this [video](https://www.youtube.com/watch?v=CKAn5dCK6RE&t=117s) from youtube
 - I learned a lot of new things
   * Power of position: absolute;
